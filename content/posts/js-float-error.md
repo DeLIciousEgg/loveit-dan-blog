@@ -3,7 +3,7 @@ title: "JavaScript 浮點數四則運算誤差"
 subtitle: ""
 date: 2020-04-29T23:23:39+08:00
 lastmod: 2020-04-29T23:23:39+08:00
-draft: true
+draft: false
 description: ""
 
 tags: ['JS']
