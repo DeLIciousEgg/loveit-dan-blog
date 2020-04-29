@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "new": "hugo new posts/new.md",
-    "push": "bash push.sh"
+    "algolia": "atomic-algolia",
+    "push": "hugo && npm run algolia && bash push.sh"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/DeLIciousEgg/loveit-dan-blog/issues"
   },
-  "homepage": "https://github.com/DeLIciousEgg/loveit-dan-blog#readme"
+  "homepage": "https://github.com/DeLIciousEgg/loveit-dan-blog#readme",
+  "dependencies": {
+    "atomic-algolia": "^0.3.17"
+  }
 }
