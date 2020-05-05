@@ -11,5 +11,9 @@ categories: []
 
 featuredImage: ""
 featuredImagePreview: ""
+
+toc:
+  enable: true
+  auto: true
 ---
 
